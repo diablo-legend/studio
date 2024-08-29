@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frog Studio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#home"><img src="IMG/logo.svg" alt="Logo" /></a>
+      </div>
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#support-us">Support Us</a></li>
+        <li><a href="#project-inf">Project Inf.</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#social-media">Social Media</a></li>
+      </ul>
+    </nav>
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".nav-menu");
+        const burger = document.querySelector(".burger-menu");
+        menu.classList.toggle("active");
+        burger.classList.toggle("active");
+      }
+    </script>
+    <div class="green-bar">
+      <div class="Heading">
+        <img src="IMG/Heading.svg" alt="Описание изображения" />
+      </div>
+    </div>
+    <div class="subtitle">
+      <img src="IMG/subtitle.svg" alt="Описание изображения" />
+    </div>
+    <div class="text-container">
+      "<span class="highlight">Frog Studio</span>" is a quality<br>content factory...
+  </div>
+  <div class="container">
+    <h1>Frog Studio</h1>
+    <h2>is a quality content factory...</h2>
+</div>
+<div class="info">
+  <img src="IMG/info.svg" alt="Описание изображения" />
+</div>
+  </body>
+</html>
