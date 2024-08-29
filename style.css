@@ -243,6 +243,7 @@ html {
   transform: translate(-50%, -50%); /* Центровка изображения */
   padding: 25px;
   margin-top: 6%; /* Убираем margin-top, чтобы избежать движения */
+  display: none;
 }
 .text-container {
   font-family: "JosefinSans-Bold", sans-serif;
