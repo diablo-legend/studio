@@ -17,6 +17,11 @@ body {
   overflow-y: auto;
   scroll-behavior: smooth; /* Плавная прокрутка */
 }
+body::after {
+  content: "";
+  display: block;
+  height: 100px;
+}
 
 /* Навигационное меню */
 nav {
