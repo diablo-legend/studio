@@ -232,6 +232,12 @@ html {
     content: url("IMG/HeadingMini.svg");
     width: 90%;
   }
+  .highlight {
+    font-size: 48px;
+  }
+  .text-container {
+    font-size: 32px;
+  }
 }
 
 /* --------------------*/ /* --------------------*/ /* --------------------*/
@@ -275,3 +281,83 @@ html {
     width: 85%;
   }
 }
+/* Адаптация для 2K (2560x1440) экранов */
+@media only screen and (min-width: 2560px) and (max-width: 3839px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  nav {
+    padding: 40px 30px;
+    font-size: 32px;
+  }
+  nav img {
+    width: 120%;
+  }
+  .nav-menu {
+    gap: 60px;
+  }
+
+  .burger-menu {
+    width: 35px;
+    height: 30px;
+  }
+
+  .green-bar {
+    height: 550px;
+  }
+
+  .Heading img {
+    width: 1000px;
+  }
+
+  .text-container {
+    font-size: 64px;
+    margin-top: 10%;
+  }
+
+  .info img {
+    width: 50%;
+  }
+}
+
+/* Адаптация для 4K (3840x2160) экранов */
+@media only screen and (min-width: 3840px) {
+  body {
+    font-size: 2em;
+  }
+
+  nav {
+    padding: 90px 60px;
+    font-size: 54px;
+  }
+  nav img {
+    width: 200%;
+  }
+  .nav-menu {
+    gap: 80px;
+  }
+
+  .burger-menu {
+    width: 40px;
+    height: 35px;
+  }
+
+  .green-bar {
+    height: 750px;
+  }
+
+  .Heading img {
+    width: 2000px;
+  }
+
+  .text-container {
+    font-size: 120px;
+    margin-top: 8%;
+  }
+
+  .info img {
+   width: 50%;
+  }
+}
+
